@@ -1,0 +1,56 @@
+<table border="0" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr valign="top">
+			<th style="padding-right: 5px;" valign="top"><strong>ColumnLink</strong></th>
+			<th valign="top"><strong>Builds a link based on the data provided for it. </strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><em>autoNumber</em></td>
+			<td>The Name of the autorow column defaults to AutoNumber. Used to build a link</td>
+		</tr>
+	<tr>
+			<td><em>dataId</em></td>
+			<td>name of the dataID columnn. Defaults out to 'DataID'</td>
+		</tr>
+	<tr>
+			<td><em>title</em></td>
+			<td>Title of page you want to link to. Used to build a link. Defaults to 'Title'</td>
+		</tr>
+	<tr>
+			<td><em>text</em></td>
+			<td>The text used for the link which this script generates. Defaults to the value for Title</td>
+		</tr>
+	<tr>
+			<td><em>format</em></td>
+			<td>A format string used to prefix or suffix the return value. Just include '{0}' in the string where you would like the link to be placed. Defaults to empty</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr valign="top">
+			<th style="padding-right: 5px;" valign="top"><strong>AttributeImage</strong></th>
+			<th valign="top"><strong>Builds a link based on the data provided for it.</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><em>imageAttribute</em></td>
+			<td>This should be the actual path the image we are displaying</td>
+		</tr>
+	<tr>
+			<td><em>titleAttribute</em></td>
+			<td>will be the alt text as well as the title text for the image. </td>
+		</tr>
+	<tr>
+			<td><em>imageResize</em></td>
+			<td>if you need to add in the size of the image you can dictate that using this field formatting as 'width:500px height:500px'</td>
+		</tr>
+	</tbody>
+</table>
